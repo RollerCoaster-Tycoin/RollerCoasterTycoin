@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RollerCoaster-Tycoin/RollerCoasterTycoin/issues"
   },
-  "homepage": "https://github.com/RollerCoaster-Tycoin/RollerCoasterTycoin#readme"
+  "homepage": "https://github.com/RollerCoaster-Tycoin/RollerCoasterTycoin#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  }
 }
