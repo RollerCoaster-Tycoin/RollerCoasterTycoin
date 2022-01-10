@@ -8,12 +8,12 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
     @author RossK
     @notice Implements roles.
  */
-contract Administered is AccessControl {
+contract Auth is AccessControl {
     bytes32 public constant USER_ROLE = keccak256("USER");
 
-    // Add root address to admin role.
-    constructor (address root) public {
-        _setupRole(DEFAULT_ADMIN_ROLE, root);
+    // Add deployer address to admin role.
+    constructor (address deployer) {
+        _setupRole(DEFAULT_ADMIN_ROLE, deployer);
         _setRoleAdmin(USER_ROLE, DEFAULT_ADMIN_ROLE);
     }
 
