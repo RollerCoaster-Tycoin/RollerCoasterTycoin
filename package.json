@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/RollerCoaster-Tycoin/RollerCoasterTycoin#readme",
   "devDependencies": {
-    "@openzeppelin/contracts": "^4.4.1"
+    "@openzeppelin/contracts": "^4.4.1",
+    "truffle": "^5.4.28"
   }
 }
